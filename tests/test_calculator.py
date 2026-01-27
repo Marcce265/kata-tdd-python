@@ -1,3 +1,4 @@
-def test_desviacion_vacia(self):
-    calc = Calculator()
-    assert calc.standard_deviation([]) == 0
+from src.calculator import standard_deviation
+
+def test_desviacion_vacia():
+    assert standard_deviation([]) == 0

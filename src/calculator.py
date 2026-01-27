@@ -1,3 +1,3 @@
-def standard_deviation(self, data):
+def standard_deviation(data):
     if len(data) == 0:
         return 0
