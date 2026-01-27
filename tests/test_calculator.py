@@ -1,4 +1,3 @@
-from src.calculator import sumar
-
-def test_suma_cero_elementos():
-    assert sumar() == 0
+def test_desviacion_vacia(self):
+    calc = Calculator()
+    assert calc.standard_deviation([]) == 0
